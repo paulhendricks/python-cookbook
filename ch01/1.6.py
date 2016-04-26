@@ -1,6 +1,20 @@
 #!/usr/bin/python3
-"""Keeping the last N items
+"""Mapping keys to multiple values in a dictionary
 """
+from collections import defaultdict
 
-p = range(10)
-x, y, *z = p
+
+d = defaultdict(list)
+d['a'].append(2)
+d['a'].append(2)
+d['a'].append(1)
+d['b'].append(4)
+d
+
+
+d = defaultdict(set)
+d['a'].add(2)
+d['a'].add(2)
+d['a'].add(1)
+d['b'].add(4)
+d
