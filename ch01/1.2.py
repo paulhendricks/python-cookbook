@@ -1,6 +1,13 @@
 #!/usr/bin/python3
-"""Unpacking elements from iterables of arbitrary length
+"""Unpacking Elements from Iterables of Arbitrary Length
+
+Complete!
 """
 
-p = range(10)
-x, y, *z = p
+
+if __name__ == '__main__':
+    p = range(10)
+    x, y, *z = p
+    print(x)
+    print(y)
+    print(z)
