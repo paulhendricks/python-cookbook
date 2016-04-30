@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Keeping the last N items
+"""Keeping the Last N Items
+
+Complete!
 """
 from collections import deque
 
