@@ -1,17 +1,16 @@
 #!/usr/bin/python3
-"""Keeping Dictionaries in Order
+"""Calculating with Dictionaries
 
 Complete!
 """
-from collections import OrderedDict
 
 
 if __name__ == '__main__':
-    d = OrderedDict()
-    d['foo'] = 1
-    d['bar'] = 2
-    d['spam'] = 3
-    d['grok'] = 4
+    prices = {'ACME': 45.23,
+              'AAPL': 612.78,
+              'IBM': 205.55,
+              'HPQ': 37.20,
+              'FB': 10.75}
 
-    for key in d:
-        print(key, d[key])
+    print(min(zip(prices.values(), prices.keys())))
+    print(max(zip(prices.values(), prices.keys())))

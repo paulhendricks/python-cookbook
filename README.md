@@ -1,3 +1,3 @@
 # Python Cookbook notes
 
-TO BE EDITED.
+Notes and exercises.
