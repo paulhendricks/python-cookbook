@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Filtering Sequence Elements
 
-Not Complete!
+Complete!
 """
 
 
