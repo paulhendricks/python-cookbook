@@ -3,10 +3,13 @@
 
 Complete!
 """
-from collections import Counter
+from operator import itemgetter
 
 
 if __name__ == '__main__':
-    items = [1, 5, 2, 9, 10, 1, 3, 6, 5, 1, 1, 1, 1, 4, 5, 5, 5]
-    c = Counter(items)
-    print(c.most_common(3))
+    items = [{'fname': 'a', 'lname': 'z'},
+             {'fname': 'b', 'lname': 'y'},
+             {'fname': 'c', 'lname': 'x'},
+             {'fname': 'd', 'lname': 'w'}]
+    print(sorted(items, key=itemgetter('fname')))
+    print(sorted(items, key=itemgetter('lname')))
