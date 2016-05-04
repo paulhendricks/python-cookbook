@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Grouping Records Together Based on a Field
 
-Not Complete!
+Complete!
 """
 from itertools import groupby
 from operator import itemgetter
