@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Manually Consuming an Iterator
 
-Not Complete!
+Complete!
 """
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    items = [1, 2, 3]
+    it = iter(items)
+    print(next(it))
+    print(next(it))
+    print(next(it))
