@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Iterating in Reverse
 
-Not Complete!
+Complete!
 """
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    a = [1, 2, 3, 4]
+    for x in reversed(a):
+        print(x)
