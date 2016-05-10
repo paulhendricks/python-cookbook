@@ -1,9 +1,17 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Creating New Iteration Patterns with Generators
 
-Not Complete!
+Complete!
 """
 
 
+def frange(start, stop, increment):
+    x = start
+    while x < stop:
+        yield x
+        x += increment
+
+
 if __name__ == '__main__':
-    print("Hello world!")
+    for i in frange(0, 10, 3):
+        print(i)
