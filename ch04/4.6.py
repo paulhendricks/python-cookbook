@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Defining Generator Functions with Extra State
 
-Not Complete!
+Complete!
 """
 from collections import deque
 
