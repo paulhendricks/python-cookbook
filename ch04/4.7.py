@@ -1,9 +1,18 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""
 
 Not Complete!
 """
+import itertools
+
+
+def count(n):
+    while True:
+        yield n
+        n += 1
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    c = count(0)
+    for x in itertools.islice(c, 10, 20):
+        print(x)
