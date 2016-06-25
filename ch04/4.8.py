@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-"""TO BE EDITED
-
-Not Complete!
 """
+
+Complete!
+"""
+import itertools
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    c = range(0, 10)
+    for x in itertools.islice(c, 5, None):
+        print(x)
