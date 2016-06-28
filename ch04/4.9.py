@@ -3,7 +3,10 @@
 
 Not Complete!
 """
+import itertools
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    items = ['a', 'b', 'c']
+    for p in itertools.permutations(items):
+        print(p)
