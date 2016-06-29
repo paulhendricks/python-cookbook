@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """TO BE EDITED
 
-Not Complete!
+Complete!
 """
 import itertools
 
