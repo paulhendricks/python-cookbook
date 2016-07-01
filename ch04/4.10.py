@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Iterating Over the Index-Value Pairs of a Sequence
 
-Not Complete!
+Complete!
 """
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    items = ['a', 'b', 'c']
+    for ix, x in enumerate(items):
+        print(ix, x)

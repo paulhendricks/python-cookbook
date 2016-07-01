@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""
+"""Taking a Slice of an Iterator
 
 Complete!
 """

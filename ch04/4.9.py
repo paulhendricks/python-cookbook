@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Iterating Over All Possible Combinations or Permutations
 
 Complete!
 """

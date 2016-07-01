@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""
+"""Skipping the First Part of an Iterable
 
 Complete!
 """
