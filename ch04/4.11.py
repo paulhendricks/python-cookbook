@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Iterating Over Multiple Sequences Simultaneously
 
-Not Complete!
+Complete!
 """
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    foo = ['a', 'b', 'c']
+    bar = [1, 2, 3]
+    for x, y in zip(foo, bar):
+        print(x, y)
