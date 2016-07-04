@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Iterating on Items in Separate Containers
 
-Not Complete!
+Complete!
 """
+import itertools
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    foo = ['a', 'b', 'c']
+    bar = [1, 2, 3]
+    for x in itertools.chain(foo, bar):
+        print(x)
