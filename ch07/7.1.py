@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-"""TO BE EDITED
+"""Writing Functions That Accept Any Number of Arguments
 
-Not Complete!
+Complete!
 """
+
+def avg(first, *rest):
+    return (first + sum(rest)) / (1 + len(rest))
 
 
 if __name__ == '__main__':
-    print("Hello world!")
+    print(avg(1, 2, 3, 4))
